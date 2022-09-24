@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Responsive</title>
+</head>
+<body>
+    <header>
+        <!-- NAVBAR --> 
+        <nav class="navbar navbar-expand-lg container-fluid" style="z-index: 8;">
+            <div class="container-fluid">
+                <img src="/assets/qiscus.svg" style="padding-right: 40px;padding-top: 13px;">
+                <div class="d-flex d-sm-block d-md-none">
+                    <button style="border:none" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <img src="/assets/qiscus.svg">
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="d-flex flex-column bd-highlight mb-3">
+                                <div class="p-3 bd-highlight"><a href="#home" class="nav-text" style="text-decoration:none">Home</a></div>
+                                <div class="p-3 bd-highlight"><a href="#About" class="nav-text" style="text-decoration:none">About</a></div>
+                                <div class="p-3 bd-highlight"><a href="#Why Us" class="nav-text" style="text-decoration:none">Why Us</a></div>
+                                <div class="p-3 bd-highlight"><a href="#Masuk" class="nav-text" style="text-decoration:none">Masuk</a></div>
+                                <button class="btn nav-text" style="width:25%; background-color: #173573; color: white;">Kontak</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse container mt-3" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link p-3" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-3" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-3" aria-current="page" href="#">Why Us</a>
+                    </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button style="border:none; background-color: transparent;" ><a class="masuk p-3" href="#">Masuk</a></button>
+                        <button class="btn btn-outline-success" type="submit" style="background-color: #173573; color: white;">Kontak</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header  -->
+        <div class="container">
+            <div class="row p-5">
+                <div class="col p-3 mt-5">
+                    <h1 class="h1-header">Omnichannel <span class="h1-header" style="color: #198754">Platform</span> untuk Tingkatkan Penjualan dan Loyalitas Pelanggan.</h1>
+                    <p class="p-header pb-3 pt-3">Lakukan percakapan langsung dengan customer melalui berbagai channel secara scalable dalam satu platform dan berikan customer experience terbaik dengan Qiscus.</p>
+                    <p class="p-header pb-3">Hubungi kami dan cari tahu bagaimana Qiscus dapat membantu bisnis Anda terus berkembang!</p>
+                    <button class="btn-header btn btn-primary">Get Demo + Free Trial</button>
+                </div>
+                <div class="col text-center">
+                    <img src="assets/header.png" width="450px" class="img-header pt-3">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Section 1 -->
+        <div class="container text-center">
+            <div class="row">
+                <h1 class="h1-header">Digunakan Oleh 1000+ Perusahaan Terpercaya</h1>
+            </div>
+            <div class="row justify-content-center pt-4 pb-4">
+                <div class="col-md-10">
+                    <img class="img-logo-company" src="/assets/logo_company.png" width="150px">
+                    <img class="img-logo-company" src="/assets/logo_company.png" width="150px">
+                    <img class="img-logo-company" src="/assets/logo_company.png" width="150px">
+                    <img class="img-logo-company" src="/assets/logo_company.png" width="150px">
+                    <img class="img-logo-company" src="/assets/logo_company.png" width="150px">
+                    <img class="img-logo-company" src="/assets/logo_company.png" width="150px">
+                    <img class="img-logo-company" src="/assets/logo_company.png" width="150px">
+                    <img class="img-logo-company" src="/assets/logo_company.png" width="150px">
+                    <img class="img-logo-company" src="/assets/logo_company.png" width="150px">
+                    <img class="img-logo-company" src="/assets/logo_company.png" width="150px">
+                    <img class="img-logo-company" src="/assets/logo_company.png" width="150px">
+                    <img class="img-logo-company" src="/assets/logo_company.png" width="150px">
+                </div>
+            </div>
+            <div class="row pb-5 mb-5">
+                <h4>Dan masih banyak lagi perusahaan dari berbagai industri.</h4>
+            </div>
+        </div>
+        <!-- Section 2.1 -->
+        <div class="container p-5">
+            <!-- visible on desktop only-->
+            <div class="row justify-content-center visible-desktop">
+                <div class="col pt-5">
+                    <h4 style="color: #173573; font-weight:bold;" class="section-1">Kelola Percakapan dari 20+ Channel dalam Satu Platform.</h4>
+                    <p class="p-header pt-3" >Mudahkan tim Anda respon dengan cepat setiap chat pelanggan dari live chat, WhatsApp, Instagram, Facebook, Tokopedia, dan berbagai aplikasi lainnya dari satu tempat.</p>
+                </div>
+                <div class="col text-center">
+                    <img src="/assets/section1.png" width="500px" class="img-section-1">
+                </div>
+            </div>
+            <!-- visible on mobile only  -->
+            <div class="row justify-content-center flex-column-reverse d-sm-block d-md-none">
+                <div class="col pt-5">
+                    <h4 style="color: #173573; font-weight:bold;" class="section-1">Kelola Percakapan dari 20+ Channel dalam Satu Platform.</h4>
+                    <p class="p-header pt-3" >Mudahkan tim Anda respon dengan cepat setiap chat pelanggan dari live chat, WhatsApp, Instagram, Facebook, Tokopedia, dan berbagai aplikasi lainnya dari satu tempat.</p>
+                </div>
+                <div class="col text-center">
+                    <img src="/assets/section1.png" width="500px" class="img-section-1">
+                </div>
+            </div>
+        </div>
+        <!-- Section 2.2 -->
+        <div class="container p-5">
+            <div class="row justify-content-center">
+                <div class="col text-center">
+                    <img src="/assets/section1.png" width="500px" class="img-section-1">
+                </div>
+                <div class="col pt-5 ">
+                    <h4 style="color: #173573; font-weight:bold;" class="section-1">Kelola Percakapan dari 20+ Channel dalam Satu Platform.</h4>
+                    <p class="p-header pt-3">Mudahkan tim Anda respon dengan cepat setiap chat pelanggan dari live chat, WhatsApp, Instagram, Facebook, Tokopedia, dan berbagai aplikasi lainnya dari satu tempat.</p>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Section 3  -->
+        <div class="text-center bg-primary d-flex flex-column align-items-center">
+            <div class="row p-5">
+                <h2 style="color:white; font-weight: bold;">Solusi Qiscus Terbukti Mampu Bantu Tingkatkan Performa Bisnis</h2>
+            </div>
+            <div class="container row row-cols-1 row-cols-md-3 justify-content-center p-2">
+                <div class="col card bg-primary m-4 card-section3">
+                    <div class="card-body">
+                        <h1 class="h1-header" style="color:white">+2X</h1>
+                        <p class="p-header" style="color:white">Up to 2X Increase in Sales Conversion</p>
+                    </div>
+                </div>
+                <div class="col card bg-primary m-4 card-section3" >
+                    <div class="card-body">
+                        <h1 class="h1-header" style="color:white">+2X</h1>
+                        <p class="p-header" style="color:white">Up to 2X Increase in Sales Conversion</p>
+                    </div>
+                </div>
+                <div class="col card bg-primary m-4 card-section3">
+                    <div class="card-body">
+                        <h1 class="h1-header" style="color:white">+2X</h1>
+                        <p class="p-header" style="color:white">Up to 2X Increase in Sales Conversion</p>
+                    </div>
+                </div>
+                <div class="col card bg-primary m-4 card-section3">
+                    <div class="card-body">
+                        <h1 class="h1-header" style="color:white">+2X</h1>
+                        <p class="p-header" style="color:white">Up to 2X Increase in Sales Conversion</p>
+                    </div>
+                </div>
+                <div class="col card bg-primary m-4 card-section3" >
+                    <div class="card-body">
+                        <h1 class="h1-header" style="color:white">+2X</h1>
+                        <p class="p-header" style="color:white">Up to 2X Increase in Sales Conversion</p>
+                    </div>
+                </div>
+                <div class="col card bg-primary m-4 card-section3">
+                    <div class="card-body">
+                        <h1 class="h1-header" style="color:white">+2X</h1>
+                        <p class="p-header" style="color:white">Up to 2X Increase in Sales Conversion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- floating button  -->
+        <button class="btn btn-success" style="height:50px;position: fixed;right: 23px; bottom: 23px;">
+            <div class="d-flex p-1 justify-content-center">
+                <img src="/assets/WhatsApp_icon.png" width="30px" height="30px">
+                <p class="text-button-floating ps-3 " style="color:white">Chat dengan kami</p>
+            </div>
+        </button>
+    </main>
+    <footer class="text-center" style="background-color:#173573;height: 30px;">
+        <p style="color:white">Qiscus © 2022</p>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
